@@ -1,0 +1,15 @@
+{
+  "form": "AP20030",
+  "rules": [
+    {"program_unit": "consiste_lancamentos", "category": "consistencia", "description": "Valida projeto, área, atividade e status de aprovação antes de fechar o cartão."},
+    {"program_unit": "valida_hora_extra", "category": "hora_extra", "description": "Verifica se hora extra é permitida para o contexto de funcionário e projeto."},
+    {"program_unit": "calcula_horas_periodico", "category": "calculo", "description": "Calcula horas para cartões periódicos."},
+    {"program_unit": "verifica_horario", "category": "horarios", "description": "Valida se ponto está dentro de horário permitido pela unidade."},
+    {"program_unit": "BLOQUEIA_CARTOES", "category": "integracao", "description": "Bloqueia cartões que não podem ser transferidos para RDHT com base em regras de aprovação e férias/licença."}
+  ],
+  "dependencies": [
+    {"source": "consiste_lancamentos", "target": "cons_hor_lancto"},
+    {"source": "consiste_lancamentos", "target": "VER_ATIVIDADE"},
+    {"source": "consiste_lancamentos", "target": "VER_PROJETO"}
+  ]
+}

@@ -1,0 +1,2 @@
+# Regras de Negócio Detectadas
+
