@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "skills": {
+    "landing-page-builder": {
+      "name": "landing-page-builder",
+      "source": "local",
+      "contentHash": "landing-page-builder-v1",
+      "installedAt": "2026-03-21T09:00:00.000Z",
+      "updatedAt": "2026-03-21T09:00:00.000Z",
+      "agents": [
+        "opencode",
+        "windsurf",
+        "claude"
+      ],
+      "method": "copy",
+      "global": false
+    },
+    "confluence-assistant": {
+      "name": "confluence-assistant",
+      "source": "local",
+      "contentHash": "b9f019173a7d864db1d0a9eca13ee920d294806ea4c5cabfb626ccaedbaaeae7",
+      "installedAt": "2026-03-21T08:37:55.050Z",
+      "updatedAt": "2026-03-21T08:37:55.081Z",
+      "agents": [
+        "windsurf"
+      ],
+      "method": "copy",
+      "global": false
+    }
+  }
+}
